@@ -12,3 +12,51 @@ body {
     color: #333;
     padding: 0 15px;
 }
+
+header {
+    background-color: #0078D7;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #0078D7;
+}
+
+section p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #555;
+}
